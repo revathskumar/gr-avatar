@@ -1,0 +1,25 @@
+{
+  "name": "gr-avatar",
+  "version": "0.0.3",
+  "authors": [
+    "Revath S Kumar <rsk@revathskumar.com>"
+  ],
+  "description": "polymer element for gravatar",
+  "main": "gravatar.html",
+  "keywords": [
+    "polymer",
+    "gravatar"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.2.3"
+  }
+}
