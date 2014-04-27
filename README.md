@@ -1,5 +1,5 @@
 
-# <gr-avatar>
+# # &lt;gr-avatar&gt;
 > [Polymer](http://www.polymer-project.org) Element for [Gravatar](http://en.gravatar.com).
 
 ## Demo
