@@ -1,6 +1,6 @@
 {
   "name": "gr-avatar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     "Revath S Kumar <rsk@revathskumar.com>"
   ],
@@ -8,7 +8,8 @@
   "main": "gravatar.html",
   "keywords": [
     "polymer",
-    "gravatar"
+    "gravatar",
+    "web-components"
   ],
   "license": "MIT",
   "private": false,
