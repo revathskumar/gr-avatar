@@ -1,0 +1,28 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<polymer-element name="gr-avatar" attributes="email size">
+  <template>
+    <style>
+      :host{
+        display: inline-block;
+      };
+    </style>
+    <img src="http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=200" alt="Deafult Gravatar" id="gravatarImage">
+  </template>
+  <script src="lib/md5.js"></script>
+  <script>
+    (function(){
+      Polymer('gr-avatar', {
+        email: '',
+        size: 200,
+        attached: function (){
+          if(this.email === ''){
+            throw "A valid email is required"
+          }
+
+          email_hash = hex_md5(this.email)
+          this.$.gravatarImage.src = "http://www.gravatar.com/avatar/" + email_hash  + "?s=" + this.size
+        }
+      })
+    })();
+  </script>
+</polymer-element>
