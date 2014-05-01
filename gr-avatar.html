@@ -8,7 +8,7 @@
     </style>
     <img src="http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?s=200" alt="Deafult Gravatar" id="gravatarImage">
   </template>
-  <script src="lib/md5.js"></script>
+  <script src="../JavaScript-MD5/js/md5.min.js"></script>
   <script>
     (function(){
       Polymer('gr-avatar', {
@@ -19,7 +19,7 @@
             throw "A valid email is required"
           }
 
-          email_hash = hex_md5(this.email)
+          email_hash = md5(this.email)
           this.$.gravatarImage.src = "http://www.gravatar.com/avatar/" + email_hash  + "?s=" + this.size
         }
       })
