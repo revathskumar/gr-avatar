@@ -1,6 +1,6 @@
 {
   "name": "gr-avatar",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "authors": [
     "Revath S Kumar <rsk@revathskumar.com>"
   ],
@@ -8,7 +8,8 @@
   "main": "gravatar.html",
   "keywords": [
     "polymer",
-    "gravatar"
+    "gravatar",
+    "web-components"
   ],
   "license": "MIT",
   "private": false,
@@ -20,17 +21,17 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.2.3"
+    "polymer": "Polymer/polymer#~0.2.3",
+    "JavaScript-MD5": "~1.1.0"
   },
   "homepage": "https://github.com/revathskumar/gr-avatar",
-  "_release": "0.0.3",
+  "_release": "0.0.6",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.3",
-    "commit": "4081ad2bbb64a842a04745300e6ae77166112686"
+    "tag": "0.0.6",
+    "commit": "b68df4741f10a6dd5ec384e79768a8d9bc34f502"
   },
   "_source": "git://github.com/revathskumar/gr-avatar.git",
   "_target": "~0.0.3",
-  "_originalSource": "gr-avatar",
-  "_direct": true
+  "_originalSource": "gr-avatar"
 }
